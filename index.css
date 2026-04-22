@@ -1,0 +1,36 @@
+body {
+    padding: 40px;
+    align-items: center;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.numbers {
+    display: inline-flex;
+}
+
+.circle {
+    border: 1px solid white;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    border-radius: 50px;
+    padding: 10px;
+    margin-right: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.btn {
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+}
